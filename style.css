@@ -1,13 +1,13 @@
 body{
-    margin-right : 300px ;
+    /* margin-left: 700px; */
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items:center;
     height: 100vh;
     justify-content: center; 
 
     font-family:sans-serif ;
-    background-image: url("https://images.unsplash.com/photo-1527213315950-eb5bc3403154?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Ym95JTIwd2l0aCUyMG5hdHVyZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-image: url("https://static.independent.co.uk/2021/07/20/18/newFile-2.jpg?width=982&height=726&auto=webp&quality=75");
     background-size: cover;
     overflow: hidden;
 }

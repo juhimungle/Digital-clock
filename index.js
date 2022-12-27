@@ -7,11 +7,11 @@
     let h = new Date().getHours()
     let m = new Date().getMinutes()
     let s = new Date().getSeconds()
-    let  ampm= "AM"
+     let am = h >= 12 ? "PM" : "AM";
 
     if(h > 12){
         h = h-12
-        ampm = "PM" 
+        
     }
     hourE1.innerText = h;
     minuteE1.innerHTML = m;
